@@ -1,11 +1,19 @@
 # iConverter
-![Screenshot](/screenshot.png)
+![Screenshot 1](/screenshot1.png)
 
 
-Project name is a iConverter that allows: to choose one of the Measure type in Serials {Degrees, Length, Weight, Time}, to insert Value in the Input field, to press Button "Calculate" and obtain the result of the Convertation.
+Project name is a iConverter that allows: to choose one of the Measure type, correspondanting to the Serials {Degrees: Fahrengeit, Celsius; Length: km, m, sm, inch, yard, foot; Weight: kg, g, ounce, pound, tone; Time: minutes, seconds, milliseconds}, to insert Value in the Input field, to press Button "Calculate" and obtain the result of the Convertation.
 
 
+![Screenshot 2](/screenshot2.png)
+English measurement systems are calculated using the following factors:
+Inch (in) = 25.4 mm (2.54 cm)
+Feet (ft) = 0.3048 m (or 12 inches)
+Yard (yard) = 0.9144 m (or 3 feet)
+Ounce (ounce, oz) = 28.35 g
+Pound (lb) = 453.59 g (or 16 oz)
 
+![Screenshot 3](/screenshot3.png)
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:

@@ -481,17 +481,17 @@ namespace iConvertor
                                     textBox2.Text = userResult;
                                     break;
                                 case Measures.inch:
-                                    objLength.SetConvertType(ConvertableLengths.enumLength.km, ConvertableLengths.enumLength.m);
+                                    objLength.SetConvertType(ConvertableLengths.enumLength.km, ConvertableLengths.enumLength.inch);
                                     userResult = objLength.GetResult();
                                     textBox2.Text = userResult;
                                     break;
                                 case Measures.yard:
-                                    objLength.SetConvertType(ConvertableLengths.enumLength.km, ConvertableLengths.enumLength.m);
+                                    objLength.SetConvertType(ConvertableLengths.enumLength.km, ConvertableLengths.enumLength.yard);
                                     userResult = objLength.GetResult();
                                     textBox2.Text = userResult;
                                     break;
                                 case Measures.foot:
-                                    objLength.SetConvertType(ConvertableLengths.enumLength.km, ConvertableLengths.enumLength.m);
+                                    objLength.SetConvertType(ConvertableLengths.enumLength.km, ConvertableLengths.enumLength.foot);
                                     userResult = objLength.GetResult();
                                     textBox2.Text = userResult;
                                     break;
