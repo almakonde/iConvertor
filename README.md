@@ -3,7 +3,7 @@
 TO DO List:
 
 Project name is a iConverter that allows: to choose one of the Measure type in Serials {Degrees, Length, Weight, Time}, to insert Value in the Input field, to press Button "Calculate" and obtain the result of the Convertation.
-![Screenshot](screenshot.png)
+![Screenshot](/screenshot.png)
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
