@@ -38,3 +38,5 @@ Persectives for improvements:
 5) evaluate more possible solutions in code organization for more incapsulation.
 
 
+![Screenshot 1](/architecture.png)
+
