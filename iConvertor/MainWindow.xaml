@@ -1,12 +1,79 @@
-﻿<Window x:Class="iConvertor.MainWindow"
+﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:iConvertor"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="iConvertor.MainWindow"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="iConvertor" Height="350" Width="525" MinHeight="350" MinWidth="525">
+    <Viewbox>
+        <Canvas Height="279" Width="560">
+            <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="361" Grid.Column="1" Height="22" Canvas.Top="64" Canvas.Left="60" RenderTransformOrigin="0.5,0.5" SelectedIndex="0">
+                <ComboBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="1.952"/>
+                        <RotateTransform/>
+                        <TranslateTransform X="0.375"/>
+                    </TransformGroup>
+                </ComboBox.RenderTransform>
+                <System:String>Degrees</System:String>
+                <System:String>Lengths</System:String>
+                <System:String>Weight</System:String>
+                <System:String>Time</System:String>
+
+            </ComboBox>
+
+
+            <ComboBox x:Name="comboBox2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Grid.Column="1" Height="22" Canvas.Top="109" Canvas.Left="60" SelectedIndex="0">
+
+                <System:String>Fahrenheit</System:String>
+                <System:String>Celsius</System:String>
+                <System:String>km</System:String>
+                <System:String>m</System:String>
+                <System:String>sm</System:String>
+                <System:String>inch</System:String>
+                <System:String>yard</System:String>
+                <System:String>foot</System:String>
+                <System:String>kg</System:String>
+                <System:String>g</System:String>
+                <System:String>ounce</System:String>
+                <System:String>pound</System:String>
+                <System:String>tone</System:String>
+                <System:String>minutes</System:String>
+                <System:String>seconds</System:String>
+                <System:String>milliseconds</System:String>
+
+            </ComboBox>
+            <ComboBox x:Name="comboBox3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Grid.Column="1" Height="22" Canvas.Top="145" Canvas.Left="60" SelectedIndex="1">
+            <System:String>Fahrenheit</System:String>
+            <System:String>Celsius</System:String>
+            <System:String>km</System:String>
+            <System:String>m</System:String>
+            <System:String>sm</System:String>
+            <System:String>inch</System:String>
+            <System:String>yard</System:String>
+            <System:String>foot</System:String>
+            <System:String>kg</System:String>
+            <System:String>g</System:String>
+            <System:String>ounce</System:String>
+            <System:String>pound</System:String>
+            <System:String>tone</System:String>
+            <System:String>minutes</System:String>
+            <System:String>seconds</System:String>
+            <System:String>milliseconds</System:String>
+            </ComboBox>
+            <TextBox x:Name="textBox1" Grid.Column="1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="227" Canvas.Left="195" Canvas.Top="109"/>
+            <TextBox x:Name="textBox2" Grid.Column="1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="227" Canvas.Left="195" Canvas.Top="145" IsReadOnly="True"/>
+            <Button x:Name="button" Content="Convert" HorizontalAlignment="Left" VerticalAlignment="Top" Width="132" Height="23" Grid.Column="1" Canvas.Left="290" Canvas.Top="207" RenderTransformOrigin="1.032,0.656" Click="button_Click"/>
+            <Label x:Name="label" Content="Choose your measure units, please:" Canvas.Left="60" Canvas.Top="21"/>
+
+
+
+
+
+
+        </Canvas>
+    </Viewbox>
 </Window>
