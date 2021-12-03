@@ -31,10 +31,10 @@ TO DO List
 
 Persectives for improvements:
 
-1) Add more measure types, 
-2) Include Menu for the range of Measures,
+1) enlarge with more measure types, 
+2) include Menu for the range of Measures,
 3) distinguish on the interface the Serials (Time, Weight, Length, etc...),
-4) Rewrite the enumerators arguments in conversations in SetConvertType,
-5) evaluate more possible solutions in code organization for more incapsulation.
+4) rewrite the enumerators arguments in conversations in SetConvertType,
+5) evaluate more possible solutions in code organization for more incapsulation and abstraction layers with less connections.
 
 
