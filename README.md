@@ -2,7 +2,10 @@
 ![Screenshot 1](/screenshot1.png)
 
 
-Project name is a iConverter that allows: to choose one of the Measure type, correspondanting to the Serials {Degrees: Fahrengeit, Celsius; Length: km, m, sm, inch, yard, foot; Weight: kg, g, ounce, pound, tone; Time: minutes, seconds, milliseconds}, to insert Value in the Input field, to press Button "Calculate" and obtain the result of the Convertation.
+Project name is a iConverter that allows: 
+1. to choose one of the Measure type, correspondanting to the Serials {Degrees: Fahrengeit, Celsius; Length: km, m, sm, inch, yard, foot; Weight: kg, g, ounce, pound, tone; Time: minutes, seconds, milliseconds}, 
+2. to insert Value in the Input field, 
+3. to press Button "Calculate" and obtain the result of the Convertation.
 
 
 ![Screenshot 2](/screenshot2.png)
